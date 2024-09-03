@@ -1,5 +1,5 @@
 import { FcLike } from "react-icons/fc";
-
+import "./Card.css"
 const Card = ({ lists }) => {
   return <>
 

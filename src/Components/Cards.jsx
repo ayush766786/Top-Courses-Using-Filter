@@ -1,3 +1,5 @@
+import "./Cards.css"
+
 import Card from "./Card";
 
 const Cards = ({ courses }) => {
