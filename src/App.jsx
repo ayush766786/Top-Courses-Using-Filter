@@ -25,7 +25,7 @@ function App() {
   }, [])
   return (
     <>
-      <div>
+      <div className='big-container'>
         <Navbar></Navbar>
         <Filter  filterData={filterData} />
         <Cards courses={courses}/>
