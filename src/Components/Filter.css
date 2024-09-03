@@ -21,3 +21,23 @@
 .btn:hover{
   background-color: rgba(0, 132, 255, 0.326);
   }
+
+  @media(max-width:749px){
+    
+    .btn{
+      margin: 10px;
+      /* display: flex;
+      text-align: center;
+      flex-direction: column; */
+      
+    }
+  }
+  @media(max-width:425){
+    .btns{
+      display: flex;
+      flex-direction: column;
+      width: 170px;
+      justify-content: center;
+      background-color: red;
+    }
+  }
