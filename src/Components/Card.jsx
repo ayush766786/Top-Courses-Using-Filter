@@ -1,21 +1,24 @@
 import { FcLike } from "react-icons/fc";
 
-const Card=({lists})=>{
+const Card = ({ lists }) => {
   return <>
-  <div>
-    <div>
-     <img src={lists.image.url}  alt="" />
-     <div>
-      <button>
-      <FcLike />
-      </button>
-     </div>
-     <div>
-      <p>{lists.title}</p>
-      <p>{lists.description}</p>
-     </div>
+
+    <div className="card">
+
+      <img src={lists.image.url} alt="" />
+      <div>
+        <button>
+          <FcLike />
+        </button>
+      </div>
+      <div>
+        <h4>{lists.title}</h4>
+        <p>{lists.description}</p>
+      </div>
     </div>
-  </div>
+
+
+
   </>
 }
 export default Card;

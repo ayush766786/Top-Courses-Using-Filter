@@ -1,6 +1,6 @@
 const Navbar=()=>{
   return <>
-  <div>
+  <div className="nav">
     <nav>
       <h1>Top Courses</h1>
     </nav>

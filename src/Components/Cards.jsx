@@ -14,7 +14,7 @@ const Cards = ({ courses }) => {
   }
 
   return <>
-    <div>
+    <div className="card-container">
       {getCourses().map((lists) => {
         return <Card key={lists.id} lists={lists}></Card>
       })}

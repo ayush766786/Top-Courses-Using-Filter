@@ -1,8 +1,8 @@
 const Filter=({filterData})=>{
   return <>
-  <div>
+  <div className="btns">
     {filterData.map((items)=>{
-      return <button key={items.id}>{items.title}</button>
+      return <button className="btn" key={items.id}>{items.title}</button>
     })}
   </div>
   </>
