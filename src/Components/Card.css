@@ -4,16 +4,17 @@
   flex-direction: column;
   
   width: 350px;
-  height: 400px;
+  height: fit-content;
   
   
   margin-bottom: 1rem;
  
  padding: 10px;
  border-radius: 20px;
- 
+ aspect-ratio: 1/1;
  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
 }
+
 
 .card button{
   height: 25px;
@@ -33,4 +34,5 @@
   text-align: start;
   margin-top: 10px;
   line-height: 1.3rem;
+  /* color: white; */
 }
